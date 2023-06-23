@@ -12,6 +12,7 @@
 		6857C6202A4644CF00D9D4F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857C61F2A4644CF00D9D4F7 /* ContentView.swift */; };
 		6857C6222A4644D100D9D4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6857C6212A4644D100D9D4F7 /* Assets.xcassets */; };
 		6857C6252A4644D100D9D4F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6857C6242A4644D100D9D4F7 /* Preview Assets.xcassets */; };
+		6865FBD82A46463800A9D45C /* HumanHeart.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6865FBD72A46463800A9D45C /* HumanHeart.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6857C6212A4644D100D9D4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6857C6242A4644D100D9D4F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6857C6262A4644D100D9D4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6865FBD72A46463800A9D45C /* HumanHeart.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = HumanHeart.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		6857C60D2A4644CE00D9D4F7 = {
 			isa = PBXGroup;
 			children = (
+				6865FBD62A46463800A9D45C /* 3DModels */,
 				6857C6182A4644CE00D9D4F7 /* VisionOSPlayground */,
 				6857C6192A4644CF00D9D4F7 /* Packages */,
 				6857C6172A4644CE00D9D4F7 /* Products */,
@@ -79,6 +82,14 @@
 				6857C6242A4644D100D9D4F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6865FBD62A46463800A9D45C /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				6865FBD72A46463800A9D45C /* HumanHeart.usdz */,
+			);
+			path = 3DModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6865FBD82A46463800A9D45C /* HumanHeart.usdz in Resources */,
 				6857C6252A4644D100D9D4F7 /* Preview Assets.xcassets in Resources */,
 				6857C6222A4644D100D9D4F7 /* Assets.xcassets in Resources */,
 			);

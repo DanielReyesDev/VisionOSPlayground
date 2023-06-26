@@ -18,6 +18,16 @@ struct ContentView: View {
             RealityView { content in
                 // Add the initial RealityKit content
                 if let scene = try? await Entity(named: "Scene", in: realityKitContentBundle) {
+
+
+                    let model: Entity = try! await Entity.load(named: "AnimatedButterfly.usdz")
+                    let anchor: AnchorEntity = AnchorEntity()
+                    for animation in model.availableAnimations {
+                        model.playAnimation(animation.repeat())
+                    }
+                    anchor.addChild(model)
+                    scene.addChild(model)
+                    
                     content.add(scene)
                 }
             } update: { content in
